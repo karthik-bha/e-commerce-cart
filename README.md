@@ -87,22 +87,25 @@ Implements essential e-commerce flows — product listing, cart management, and 
   - Cart and product data stored in MongoDB
 
   - Checkout automatically triggers invoice download
-  
+
 ### Folder Structure
-nexora/
+
+```
+e-commerce-cart/
 │
 ├── backend/
-│   ├── models/
-│   ├── db/
-│   ├── index.js
-│   └── ...
+│   ├── models/          # Mongoose schemas (Product, Cart)
+│   ├── db/              # Database connection (MongoDB)
+│   ├── index.js         # Main Express server (APIs)
+│   └── ...              # Other backend files
 │
 ├── frontend/
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   └── ...
+│   ├── src/             # React source files
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Product, Cart, Checkout pages
+│   └── ...              # Other frontend configs
 │
-└── README.md
+└── README.md            # Project documentation
+```
 
 
