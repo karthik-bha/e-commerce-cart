@@ -39,8 +39,8 @@ Implements essential e-commerce flows — product listing, cart management, and 
 
 ### 1️. Clone the repository
 ```bash
-  git clone https://github.com/karthik-bha/nexora.git
-  cd nexora
+  git clone https://github.com/karthik-bha/e-commerce-cart.git
+  cd e-commerce-cart
 ```
 
 ### 2. Setup Backend
